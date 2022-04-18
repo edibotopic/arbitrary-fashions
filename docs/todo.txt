@@ -1,11 +1,11 @@
 # Arbitrary Fashions
 
-- Improve grammar
-- Embed silhouettes? 
-- Add food grammar
-- html tags in images in grammar
+- Watermark silhouettes? 
+- Add game grammar
+- more html tags in images in grammar
 - refactor for multiple grammars, etc.
 - remove about page -> will be on github repo
+- explore KC's modifier file
 
 ---
 
@@ -27,8 +27,6 @@ for our x times
 young and slinky
 for a teatime dance
 for a lunchtime party
-
-
 the word "Distinction"
 
 brands: chanel, courreges, 
@@ -38,7 +36,6 @@ concepts: microfashion, imperialist, size/depth of neckline, height of waistline
 styles: french, italian, egyptian, sports, smart, slinky, optimistic, signature
 
 explicit (in fashion) | contingent/secondary (autumnal tie) | implicit (pernod poplin)
-
 
 ### quotes
 
@@ -52,15 +49,9 @@ in reality fashion is never functional, never utilitarian
 
 after a period of short skirts, we will automatically have a period of long skirts
 
-## From Manual
-
 ---
 
-# FoodGram
-
-Generative grammars for food innovation.
-
-## Models
+### Generative grammars for food innovation.
 
 - DSF
 - RxOL
@@ -70,33 +61,4 @@ Generative grammars for food innovation.
 - Industrial production
 - Avant Garde
 - Emoji-based
-- SVG-topology
-
-## What's Next?
-
-- Plan it out better
-- Build in logic
-- Use parser features (capitalisation, expansions, conditionals, modifiers)
-- Add something funny
-
-## Ideas
-
-Need way to fix phases in place for the DSF one
-(and probably others).
-
-Can do this as follows:
-
-```json
-char = ["shane","sarah"],
-place = ["castle", "dessert"]
-
-origin = ["#[hero:#char#] was in the #dessert#"]
-
-```
-
-This associates the character with "hero".
-
-Need to work out the implications or see if conditional logic can be applied.
-
----
 
