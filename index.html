@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Fashion!!!</title>
+		<link rel="stylesheet" href="css/slide.css">
+		<link rel="stylesheet" href="css/fashion.css">
+		<link rel="stylesheet" href="css/topnav.css">
+		<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap">  -->
+	</head>
+	
+	<body onload="document.body.style.opacity='1'">
+  
+	        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Fashion</a>
+            <a href="philosophy.html">Philosophy</a>
+            <a href="food.html">Food</a>
+            <!-- <a href="#recipes">Recipes</a> -->
+            <!-- <a href="about.html">About</a> -->
+            <a href="javascript:void(0);" class="icon" onclick="menuRespond()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>	
+
+		<div id="container" >
+			
+			<h1>Arbitrary Fashions</h1>
+			<small>An anmesiac substitution of the present for the past</small>
+			<hr id="headline">
+			
+			<p id="output">Placeholder</p>
+			<button id="generator">Substitute</button>
+			
+			<div class="slideshow">
+				<p>every new fashion is a refusal to inherit</p>
+				<p>the new is not fashion, it is value.</p>
+				<p>the present is constantly "eaten up" by the fashion being heralded</p>
+				<p>fashion is never anything but an amnesiac substitution of the present for the past</p>
+			</div>
+					
+			<div id="footer">
+				<small>
+					<a href="/index.html">Arbitrary Fashions</a> was created
+					by <a href="https://edibotopic.com">edibotopic</a> using the
+					<a href="https://github.com/galaxykate/tracery">Tracery</a> library for context-free grammars.
+					For more information <a href="about.html">click here</a>.
+				</small>
+			</div>
+			
+		</div>
+		<script src="js/vendor/jquery-1.11.2.min.js"></script>
+		<script src="js/tracery.js"></script>
+		<!-- <script src="js/tracery.min.js"></script> -->
+		<script src="js/grammars.js"></script>
+		<script src="js/fashion.js"></script>		
+	</body>
+
+</html>

@@ -1,0 +1,31 @@
+/* slideshow */
+@keyframes fade {
+  0%   { opacity: 0; }
+  11.11%   { opacity: 1; }
+  33.33%  { opacity: 0; }
+  44.44%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.slideshow {
+  position: relative;
+  padding-bottom: 20%;
+}
+
+.slideshow p { 
+  opacity:0;
+  animation-name: fade; 
+  /* animation-play-state: paused; */
+  animation-duration: 40s; 
+  animation-iteration-count: infinite; 
+  position: absolute; 
+  width: 80%;
+  height: 80%;
+  left: 10%;  
+  top: 10%;
+}
+
+.slideshow p:nth-child(1) { animation-delay: 0s; }
+.slideshow p:nth-child(2) { animation-delay: 10s; }
+.slideshow p:nth-child(3) { animation-delay: 20s; }
+.slideshow p:nth-child(4) { animation-delay: 30s; }

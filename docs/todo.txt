@@ -1,0 +1,102 @@
+# Arbitrary Fashions
+
+- Improve grammar
+- Embed silhouettes? 
+- Add food grammar
+- html tags in images in grammar
+- refactor for multiple grammars, etc.
+- remove about page -> will be on github repo
+
+---
+
+# Extra structures
+
+## From Barthes
+
+### structures
+
+pair your x with a y
+we can see the camelhair sweater coming back
+the fashion for black-dyed mink is growing
+loose dresses are in 
+poplin with white polka dot on Pernod-yellow background, pleated collar and pockets
+to give an air of
+patterned blouses give the skirt a touch/air of romance
+a coat for the journey
+for our x times
+young and slinky
+for a teatime dance
+for a lunchtime party
+
+
+the word "Distinction"
+
+brands: chanel, courreges, 
+clothes: hoodie, sweatpants, zips, riding pants, canezou, raincoat, blazer, kimono, poncho, cravat, gloves, cufflinks, turned-up/turned-down collar, sleeves, pockets, vents, pleats, edging, stitching, trimmings, two-piece, square-necked
+time: evening, morning, lunch, five o clock
+concepts: microfashion, imperialist, size/depth of neckline, height of waistline, boutique
+styles: french, italian, egyptian, sports, smart, slinky, optimistic, signature
+
+explicit (in fashion) | contingent/secondary (autumnal tie) | implicit (pernod poplin)
+
+
+### quotes
+
+fashion is nothing but one says it is
+
+if hair has become long, it is because it was short before
+
+fashion tries hard to make the written item of clothing correspond to uses, characters, seasons, functions: 'a dress for evening wear, for shopping, for spring, for the student, for the carefree young girl...'
+
+in reality fashion is never functional, never utilitarian
+
+after a period of short skirts, we will automatically have a period of long skirts
+
+## From Manual
+
+---
+
+# FoodGram
+
+Generative grammars for food innovation.
+
+## Models
+
+- DSF
+- RxOL
+- Cooklang
+- Traditional recipe
+- Molecular Gastronomy
+- Industrial production
+- Avant Garde
+- Emoji-based
+- SVG-topology
+
+## What's Next?
+
+- Plan it out better
+- Build in logic
+- Use parser features (capitalisation, expansions, conditionals, modifiers)
+- Add something funny
+
+## Ideas
+
+Need way to fix phases in place for the DSF one
+(and probably others).
+
+Can do this as follows:
+
+```json
+char = ["shane","sarah"],
+place = ["castle", "dessert"]
+
+origin = ["#[hero:#char#] was in the #dessert#"]
+
+```
+
+This associates the character with "hero".
+
+Need to work out the implications or see if conditional logic can be applied.
+
+---
+
