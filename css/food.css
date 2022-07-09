@@ -1,32 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Caveat+Brush&family=Chelsea+Market&family=Nanum+Pen+Script&family=Secular+One&display=swap');
 
 :root {
-	/* variables */
-	--color_base: #fff;
-	--color_base_t: rgba(255, 255, 255, 0.712);
-	--color_mag: #81e99b;
-	--color_ink: #282724;
-	--color_hgh: #ffff00;
+  /* variables */
+  --color_base: #fff;
+  --color_base_t: rgba(255, 255, 255, 0.712);
+  --color_mag: #97d99b;
+  --color_ink: #282724;
+  --color_hgh: #ffff00;
 }
 
 body {
-    opacity: 0;
-    transition: opacity 2s;
-    -webkit-transition: opacity 2s; /* Safari */
- /* border: 2px; */
- /* border-color: var(--color_ink); */
- /* border-style: solid; */
- padding: 10px;
- width: 70%;
- position: absolute;	
- top: 5%;
- left: 15%;
- bottom: 10%;
- margin: auto;
- display: flex; flex-direction: column; justify-content: center;
- background-color: var(--color_mag);
- color: var(--color_ink);	
- font-family: 'Bodoni Moda',serif;
+  opacity: 0;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s; /* Safari */
+  /* border: 2px; */
+  /* border-color: var(--color_ink); */
+  /* border-style: solid; */
+  padding: 10px;
+  width: 70%;
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  bottom: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color_mag);
+  color: var(--color_ink);
+  font-family: 'Caveat Brush', serif;
 }
 
 h1 {
@@ -40,102 +42,103 @@ h1 {
 /* Flaired edges, by Tomas Theunissen */
 
 #headline {
-    overflow: visible; /* For IE */
-    height: 30px;
-    border-style: solid;
-    border-color: var(--color_ink);
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: var(--color_ink);
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
 }
-#headline:before { /* Not really supposed to work, but does */
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: var(--color_ink);
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
+#headline:before {
+  /* Not really supposed to work, but does */
+  display: block;
+  content: '';
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: var(--color_ink);
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
 }
 
 #container {
-	text-align: center;
+  text-align: center;
 }
 
 #container_tight {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 #content {
-	margin: 40px;
-	float: left;
-	width: 480px;
+  margin: 40px;
+  float: left;
+  width: 480px;
 }
 
 .outputSample {
-	margin: 10px;
-	padding: 5px;
-	background-color: rgb(100, 220, 155);
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(100, 220, 155);
 }
 
 #content {
-	margin: 40px;
-	float: left;
-	width: 480px;
+  margin: 40px;
+  float: left;
+  width: 480px;
 }
 
 #output {
-	background-color: var(--color_base);
-	text-align: center;
-	font-size: x-large;
+  background-color: var(--color_base);
+  text-align: center;
+  font-size: x-large;
 }
 
 #generator {
-	font-size: large;
- 	color: var(--color_ink);
-	font-family: 'Bodoni Moda',serif;
-	background-color: rgb(224, 255, 245);
+  font-size: large;
+  color: var(--color_ink);
+  font-family: 'Bodoni Moda', serif;
+  background-color: rgb(224, 255, 245);
 }
 
 #grammar {
-	padding: 5px;
-	margin: 10px;
-	background-color: rgb(100, 130, 255);
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(100, 130, 255);
 }
 
 #footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: var(--color_base_t);
-	color: var(--color_ink);
-	text-align: center;
-  }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--color_base_t);
+  color: var(--color_ink);
+  text-align: center;
+}
 
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Create two equal columns that floats next to each other */
 .column {
-float: left;
-width: 50%;
-padding: 25px;
-text-align: center;
+  float: left;
+  width: 50%;
+  padding: 25px;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
 .row:after {
-content: "";
-display: table;
-clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-.column {
-	width: 100%;
-}
+  .column {
+    width: 100%;
+  }
 }
