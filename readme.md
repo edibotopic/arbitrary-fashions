@@ -1,19 +1,28 @@
-## What is this?
+## Arbitrary Fashions?
 
-Files for tiny web app/demo using context-free
-grammars to generate pronouncements about fashions.
+Roland Barthes was a writer and academic who studied the science of signs, known as semiotics.
 
-The idea is partially inspired by the writings of
-the French theorist Roland Barthes and is built
-using Kate Compton's excellent Tracery javascript
-library.
+Barthes considered fashions to have an underlying structure with elements arranged according to rules.
 
-I am currently using this repo for local development
-on multiple machines and the project is unfinished.
+Categories of elements can be substituted while still existing in the same relation to each other.
+
+New elements and arrangements deemed "fashionable" are arbitrary dictates (from industry):
+
+> Blue is in *now*
+
+On this simple webpage a context-free grammar is used to algorithmically generate such arbitrary pronouncements.
+
+Grammars of fashion with substitutable elements and paradigm phrases are used to generate What's New across a variety of domains.
+
+Currently, grammars are depicted for fashion, philosophy and food.
 
 ## Roadmap
 
-- [ ] Finish grammars for clothes, food, philosophy and games
-- [ ] Publish basic version
-- [ ] Build more complexity into the grammars
+- [x] Draft grammars for clothes, food, philosophy and games
+- [x] Publish interactive version of grammars
+- [ ] Use modifiers to clean up some outputs
+- [ ] Expand vocabulary and sentence structures significantly
 - [ ] Investigate generation of images/sound
+- [ ] Use minified version of tracery.js
+- [ ] Add credits, links and licences
+- [ ] Improve description of Barthes' thought in readme and about
